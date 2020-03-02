@@ -46,7 +46,7 @@ public class ProducerCreator {
 		 * only one partition, so I have commented this property. You can create your custom partitioner by implementing the CustomPartitioner interface
 		 */
 
-		// props.put(ProducerConfig.PARTITIONER_CLASS_CONFIG, CustomPartitioner.class.getName());
+		/** props.put(ProducerConfig.PARTITIONER_CLASS_CONFIG, CustomPartitioner.class.getName());*/
 
 		//props.put(ProducerConfig.TRANSACTIONAL_ID_CONFIG, StringSerializer.class.getName());
 		
