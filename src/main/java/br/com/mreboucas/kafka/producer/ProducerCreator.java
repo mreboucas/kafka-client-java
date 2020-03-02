@@ -48,7 +48,7 @@ public class ProducerCreator {
 
 		/** props.put(ProducerConfig.PARTITIONER_CLASS_CONFIG, CustomPartitioner.class.getName());*/
 
-		//props.put(ProducerConfig.TRANSACTIONAL_ID_CONFIG, StringSerializer.class.getName());
+		/**props.put(ProducerConfig.TRANSACTIONAL_ID_CONFIG, StringSerializer.class.getName());*/
 		
 		return new KafkaProducer<>(props);
 
